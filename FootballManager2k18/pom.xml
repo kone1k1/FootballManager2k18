@@ -70,6 +70,21 @@
 						</dependency>
 					</dependencies>
 				</plugin>
+				
+ <!-- Make this jar executable -->
+		  <plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-jar-plugin</artifactId>
+			<configuration>
+			   <archive>
+			     <manifest>
+				<mainClass>de.kone1k1.games.FootballManager2k18.App</mainClass>
+			     </manifest>
+			   </archive>
+			</configuration>
+		  </plugin>
+		  
+      
 			</plugins>
 		</pluginManagement>
 	</build>

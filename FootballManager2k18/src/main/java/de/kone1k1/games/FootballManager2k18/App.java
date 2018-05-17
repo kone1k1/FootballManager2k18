@@ -14,7 +14,7 @@ public class App extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 
-		final URL url = getClass().getResource("gui/view/FacilityView.fxml");
+		final URL url = getClass().getResource("/FacilityView.fxml");
 		final FXMLLoader fxmlLoader = new FXMLLoader(url);
 		fxmlLoader.setController(new FacilityController());
 		final Parent root = fxmlLoader.load();

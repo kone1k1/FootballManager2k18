@@ -13,7 +13,7 @@ public class MapImage {
 
 	public MapImage(GameMap gameMap) {
 		this.gameMap = gameMap;
-		tileSet = new Image(this.getClass().getResourceAsStream("tileset.png"));
+		tileSet = new Image(this.getClass().getResourceAsStream("/tileset.png"));
 	}
 
 	public void drawMap(GraphicsContext gc) {
