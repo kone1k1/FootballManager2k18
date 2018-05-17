@@ -3,9 +3,6 @@ package de.kone1k1.games.FootballManager2k18.map;
 import java.awt.Dimension;
 import java.awt.Point;
 
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-
 public class GameMap {
 
 	private int[][] map;
