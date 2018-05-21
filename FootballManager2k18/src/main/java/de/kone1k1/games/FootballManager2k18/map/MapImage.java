@@ -32,9 +32,7 @@ public class MapImage {
 		// 10 Anzahl der Kästchen im Tileset
 		int mx = t.ordinal() % 10;
 		int my = t.ordinal() / 10;
-
 		gc.drawImage(tileSet, mx * tW, my * tH, tW, tH, desX, desY, tW, tH);
-
 	}
 
 }
